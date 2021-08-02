@@ -1,0 +1,16 @@
+PODS:
+  - lua (5.2.1)
+
+DEPENDENCIES:
+  - lua (= 5.2.1)
+
+SPEC REPOS:
+  trunk:
+    - lua
+
+SPEC CHECKSUMS:
+  lua: cd5d4d1f261b7f4969385e8ce5df4a39a699b0cb
+
+PODFILE CHECKSUM: 8071a0491844513ca8184724a5d22e1535d0018f
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB0790D91711973C00E4DD39 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0790D81711973C00E4DD39 /* Person.m */; };
+		CBBEB7CD1710E7DA00006539 /* LuaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBEB7CC1710E7DA00006539 /* LuaManager.m */; };
+		CBBEB7CF1710EAEC00006539 /* foo.lua in Resources */ = {isa = PBXBuildFile; fileRef = CBBEB7CE1710EAEC00006539 /* foo.lua */; };
+		CBF21DBF1710E5B000FCB91E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF21DBE1710E5B000FCB91E /* UIKit.framework */; };
+		CBF21DC11710E5B000FCB91E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF21DC01710E5B000FCB91E /* Foundation.framework */; };
+		CBF21DC31710E5B000FCB91E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF21DC21710E5B000FCB91E /* CoreGraphics.framework */; };
+		CBF21DC91710E5B000FCB91E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBF21DC71710E5B000FCB91E /* InfoPlist.strings */; };
+		CBF21DCB1710E5B000FCB91E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF21DCA1710E5B000FCB91E /* main.m */; };
+		CBF21DCF1710E5B000FCB91E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF21DCE1710E5B000FCB91E /* AppDelegate.m */; };
+		CBF21DD11710E5B000FCB91E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF21DD01710E5B000FCB91E /* Default.png */; };
+		CBF21DD31710E5B000FCB91E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF21DD21710E5B000FCB91E /* Default@2x.png */; };
+		CBF21DD51710E5B000FCB91E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF21DD41710E5B000FCB91E /* Default-568h@2x.png */; };
+		CBF21DD81710E5B000FCB91E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF21DD61710E5B000FCB91E /* MainStoryboard.storyboard */; };
+		CBF21DDB1710E5B000FCB91E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF21DDA1710E5B000FCB91E /* ViewController.m */; };
+		E15345BAC5CA0EC405463243 /* libPods-Lua on iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B108554710324A57358C9F15 /* libPods-Lua on iOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13282AC4B7267B29A2561DEC /* Pods-Lua on iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lua on iOS.release.xcconfig"; path = "Target Support Files/Pods-Lua on iOS/Pods-Lua on iOS.release.xcconfig"; sourceTree = "<group>"; };
+		57265DA7F7F355FB6535E6E9 /* Pods-Lua on iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lua on iOS.debug.xcconfig"; path = "Target Support Files/Pods-Lua on iOS/Pods-Lua on iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B108554710324A57358C9F15 /* libPods-Lua on iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lua on iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0790D71711973C00E4DD39 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = "Lua on iOS/Person.h"; sourceTree = "<group>"; };
+		CB0790D81711973C00E4DD39 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = "Lua on iOS/Person.m"; sourceTree = "<group>"; };
+		CBBEB7CB1710E7DA00006539 /* LuaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuaManager.h; sourceTree = "<group>"; };
+		CBBEB7CC1710E7DA00006539 /* LuaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuaManager.m; sourceTree = "<group>"; };
+		CBBEB7CE1710EAEC00006539 /* foo.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = foo.lua; sourceTree = "<group>"; };
+		CBF21DBB1710E5B000FCB91E /* Lua on iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lua on iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF21DBE1710E5B000FCB91E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CBF21DC01710E5B000FCB91E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBF21DC21710E5B000FCB91E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CBF21DC61710E5B000FCB91E /* Lua on iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lua on iOS-Info.plist"; sourceTree = "<group>"; };
+		CBF21DC81710E5B000FCB91E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBF21DCA1710E5B000FCB91E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBF21DCC1710E5B000FCB91E /* Lua on iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lua on iOS-Prefix.pch"; sourceTree = "<group>"; };
+		CBF21DCD1710E5B000FCB91E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBF21DCE1710E5B000FCB91E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBF21DD01710E5B000FCB91E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CBF21DD21710E5B000FCB91E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CBF21DD41710E5B000FCB91E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CBF21DD71710E5B000FCB91E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CBF21DD91710E5B000FCB91E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBF21DDA1710E5B000FCB91E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F99505336E0F4F4A834663FE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBF21DB81710E5B000FCB91E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF21DBF1710E5B000FCB91E /* UIKit.framework in Frameworks */,
+				CBF21DC11710E5B000FCB91E /* Foundation.framework in Frameworks */,
+				CBF21DC31710E5B000FCB91E /* CoreGraphics.framework in Frameworks */,
+				E15345BAC5CA0EC405463243 /* libPods-Lua on iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47D3BC40934B94B25923E222 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57265DA7F7F355FB6535E6E9 /* Pods-Lua on iOS.debug.xcconfig */,
+				13282AC4B7267B29A2561DEC /* Pods-Lua on iOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CBF21DB21710E5B000FCB91E = {
+			isa = PBXGroup;
+			children = (
+				CB0790D71711973C00E4DD39 /* Person.h */,
+				CB0790D81711973C00E4DD39 /* Person.m */,
+				CBF21DC41710E5B000FCB91E /* Lua on iOS */,
+				CBF21DBD1710E5B000FCB91E /* Frameworks */,
+				CBF21DBC1710E5B000FCB91E /* Products */,
+				F99505336E0F4F4A834663FE /* Pods.xcconfig */,
+				47D3BC40934B94B25923E222 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		CBF21DBC1710E5B000FCB91E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBF21DBB1710E5B000FCB91E /* Lua on iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBF21DBD1710E5B000FCB91E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBF21DBE1710E5B000FCB91E /* UIKit.framework */,
+				CBF21DC01710E5B000FCB91E /* Foundation.framework */,
+				CBF21DC21710E5B000FCB91E /* CoreGraphics.framework */,
+				B108554710324A57358C9F15 /* libPods-Lua on iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBF21DC41710E5B000FCB91E /* Lua on iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBF21DCD1710E5B000FCB91E /* AppDelegate.h */,
+				CBF21DCE1710E5B000FCB91E /* AppDelegate.m */,
+				CBF21DD61710E5B000FCB91E /* MainStoryboard.storyboard */,
+				CBF21DD91710E5B000FCB91E /* ViewController.h */,
+				CBBEB7CB1710E7DA00006539 /* LuaManager.h */,
+				CBBEB7CC1710E7DA00006539 /* LuaManager.m */,
+				CBF21DDA1710E5B000FCB91E /* ViewController.m */,
+				CBBEB7CE1710EAEC00006539 /* foo.lua */,
+				CBF21DC51710E5B000FCB91E /* Supporting Files */,
+			);
+			path = "Lua on iOS";
+			sourceTree = "<group>";
+		};
+		CBF21DC51710E5B000FCB91E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBF21DC61710E5B000FCB91E /* Lua on iOS-Info.plist */,
+				CBF21DC71710E5B000FCB91E /* InfoPlist.strings */,
+				CBF21DCA1710E5B000FCB91E /* main.m */,
+				CBF21DCC1710E5B000FCB91E /* Lua on iOS-Prefix.pch */,
+				CBF21DD01710E5B000FCB91E /* Default.png */,
+				CBF21DD21710E5B000FCB91E /* Default@2x.png */,
+				CBF21DD41710E5B000FCB91E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBF21DBA1710E5B000FCB91E /* Lua on iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF21DDE1710E5B000FCB91E /* Build configuration list for PBXNativeTarget "Lua on iOS" */;
+			buildPhases = (
+				05BF6323AE709ED57FD27A41 /* [CP] Check Pods Manifest.lock */,
+				CBF21DB71710E5B000FCB91E /* Sources */,
+				CBF21DB81710E5B000FCB91E /* Frameworks */,
+				CBF21DB91710E5B000FCB91E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lua on iOS";
+			productName = "Lua on iOS";
+			productReference = CBF21DBB1710E5B000FCB91E /* Lua on iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBF21DB31710E5B000FCB91E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Maciej Konieczny";
+			};
+			buildConfigurationList = CBF21DB61710E5B000FCB91E /* Build configuration list for PBXProject "Lua on iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBF21DB21710E5B000FCB91E;
+			productRefGroup = CBF21DBC1710E5B000FCB91E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBF21DBA1710E5B000FCB91E /* Lua on iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBF21DB91710E5B000FCB91E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF21DC91710E5B000FCB91E /* InfoPlist.strings in Resources */,
+				CBF21DD11710E5B000FCB91E /* Default.png in Resources */,
+				CBF21DD31710E5B000FCB91E /* Default@2x.png in Resources */,
+				CBF21DD51710E5B000FCB91E /* Default-568h@2x.png in Resources */,
+				CBF21DD81710E5B000FCB91E /* MainStoryboard.storyboard in Resources */,
+				CBBEB7CF1710EAEC00006539 /* foo.lua in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05BF6323AE709ED57FD27A41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lua on iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBF21DB71710E5B000FCB91E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF21DCB1710E5B000FCB91E /* main.m in Sources */,
+				CBF21DCF1710E5B000FCB91E /* AppDelegate.m in Sources */,
+				CBF21DDB1710E5B000FCB91E /* ViewController.m in Sources */,
+				CBBEB7CD1710E7DA00006539 /* LuaManager.m in Sources */,
+				CB0790D91711973C00E4DD39 /* Person.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBF21DC71710E5B000FCB91E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBF21DC81710E5B000FCB91E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CBF21DD61710E5B000FCB91E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBF21DD71710E5B000FCB91E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBF21DDC1710E5B000FCB91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBF21DDD1710E5B000FCB91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBF21DDF1710E5B000FCB91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57265DA7F7F355FB6535E6E9 /* Pods-Lua on iOS.debug.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lua on iOS/Lua on iOS-Prefix.pch";
+				INFOPLIST_FILE = "Lua on iOS/Lua on iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CBF21DE01710E5B000FCB91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13282AC4B7267B29A2561DEC /* Pods-Lua on iOS.release.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lua on iOS/Lua on iOS-Prefix.pch";
+				INFOPLIST_FILE = "Lua on iOS/Lua on iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBF21DB61710E5B000FCB91E /* Build configuration list for PBXProject "Lua on iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF21DDC1710E5B000FCB91E /* Debug */,
+				CBF21DDD1710E5B000FCB91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF21DDE1710E5B000FCB91E /* Build configuration list for PBXNativeTarget "Lua on iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF21DDF1710E5B000FCB91E /* Debug */,
+				CBF21DE01710E5B000FCB91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBF21DB31710E5B000FCB91E /* Project object */;
+}
